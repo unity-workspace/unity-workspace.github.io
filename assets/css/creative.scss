@@ -27,8 +27,8 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #f4623a;
-  --secondary: #6c757d;
+  --primary: #6c757d;
+  --secondary: #f4623a;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -167,7 +167,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
+  color: var(--gray-dark);
   text-decoration: underline;
 }
 
@@ -10078,7 +10078,8 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead.jpg");
+  // background: linear-gradient(to bottom, rgba(243, 246, 249, 0.2) 0%, rgba(243, 246, 249, 0.2) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(19, 47, 76, 0.9) 0%, rgba(19, 47, 76, 0.9) 100%), url("../img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10126,7 +10127,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(19, 47, 76, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }

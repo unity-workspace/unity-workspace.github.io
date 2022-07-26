@@ -1,49 +1,32 @@
 ---
 layout: home
 header:
-  title: Your Favorite Source of Free Bootstrap Themes
+  title: A new way to navigate the websites
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    Unity Workspace enables you to open websites in tiled windows, allowing you to view the contents simultaneously without switching tabs, and to organize and group the websites into different workspaces.
   action: # action button is optional
     label: Find Out More
-    url: '#about'
+    url: '#features'
+    class: btn-light
 
 
 sections:
-  - type: call-to-action.html
-    section_id: about
-    background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
-    actions:
-      - title: Get Started!
-        url: '#page-top'
-        class: btn-light
-
   - type: services.html
-    section_id: services
-    #background_style: bg-info
-    title: At Your Service
+    section_id: features
+    # background_style: bg-info
+    title: Feature Summary
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
+      - title: Tiled Windows
+        text: User tiled windows to view the websites instead of tabs.
         icon: fa-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
+      - title: Flexible layout
+        text: Create as many windows as you want, resize them to create a layout you like
         icon: fa-paper-plane
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
+      - title: Drag and Drop
+        text: Drag and drop the windows into new places
         icon: fa-laptop-code
-      - title: Made with Love
+      - title: Dark Theme Support
         text: You have to make your websites with love these days!
-        icon: fa-heart
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: fa-heart
-      - title: Other 2
-        text: Some not-so long text here.
         icon: fa-heart
 
   - type: portfolio.html
@@ -91,12 +74,12 @@ sections:
     section_id: contacts
     title: Let's Get In Touch!
     text: >-
-      Ready to start your next project with us? Give us a call or send us an email
+      Want more features or need some support? Send us an email
       and we will get back to you as soon as possible!
     actions:
     - title: E-Mail
       icon: fa-envelope
-      url: mailto:contact@yourwebsite.com
+      url: mailto:unity-workspace@outlook.com
     - title: Twitter
       icon: fa-twitter
       icon_type: fab
