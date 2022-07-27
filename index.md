@@ -1,9 +1,9 @@
 ---
 layout: home
 header:
-  title: A new way to navigate the websites
+  title: A new way to navigate websites
   text: >
-    Unity Workspace enables you to open websites in tiled windows, allowing you to view the contents simultaneously without switching tabs, and to organize and group the websites into different workspaces.
+    Unity Workspace enables you to open websites in tiled windows, allowing you to view the contents simultaneously without switching tabs, and to organize the websites with different workspaces.
   action: # action button is optional
     label: Find Out More
     url: '#features'
@@ -17,54 +17,54 @@ sections:
     title: Feature Summary
     services:
       - title: Tiled Windows
-        text: User tiled windows to view the websites instead of tabs.
-        icon: fa-gem text-info
+        text: Use tiled windows to view the websites instead of tabs. Split them vertically and horizontally with one click, it's as easy as you handle the table cells in Word!
+        icon: fa-window-maximize text-info
       - title: Flexible layout
-        text: Create as many windows as you want, resize them to create a layout you like
-        icon: fa-paper-plane
-      - title: Drag and Drop
-        text: Drag and drop the windows into new places
-        icon: fa-laptop-code
-      - title: Dark Theme Support
-        text: You have to make your websites with love these days!
-        icon: fa-heart
+        text: Create as many windows as you want, resize them, and drag and drop them around to create the layout you prefer in your workspaces
+        icon: fa-table-columns text-info
+      - title: Data Auto Saving
+        text: Everything in your workspace is automatically saved, be it the websites you are viewing, the size and location of the windows. You can start from exactly where you left off.
+        icon: fa-box-archive text-success
+      - title: Light and Dark Theme 
+        text: Simple yet intuitive user interface removing all the cluster for you, with one click to toggle between light and dark them.
+        icon: fa-circle-half-stroke text-dark
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
     #section_id: portfolio
     #background_style: bg-dark
     projects:
-      - title: Project 1
-        text: This is a very short project description.
+      - title: Tiled Windows
+        text: Three tiled windows, with the top two showing info about Apple stocks, the bottom one taking notes
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
-        icon: 1.jpg
+        icon: tiles.jpg
         url: '#'
-      - title: Project 2
-        text: This is a very short project description.
-        icon: 2.jpg
+      - title: Dark Theme
+        text: Dark theme support
+        icon: dark-theme.jpg
         url: '#'
-      - title: Project 3
-        text: This is a very short project description.
-        icon: 3.jpg
+      - title: Window Toolbar
+        text: The toolbar which allows you to split and drag and drop windows
+        icon: toolbar.jpg
         url: '#'
-      - title: Project 4
-        text: This is a very short project description.
-        icon: 4.jpg
+      - title: Multiple workspaces
+        text: You can create multiple workspaces and quickly switch among them with one click
+        icon: multi-workspaces.jpg
         url: '#'
-      - title: Project 5
-        text: This is a very short project description.
-        icon: 5.jpg
+      - title: Window Resizing
+        text: Resize the window by dragging the window borders
+        icon: resizing.png
         url: '#'
-      - title: Project 6
-        text: This is a very short project description.
-        icon: 6.jpg
+      - title: Drag and Drop Windows
+        text: Drag the window around and drop it anywhere you see fit
+        icon: drag-drop.jpg
         url: '#'
 
   - type: aside.html
-    section_id: aside
-    title: Free Download at Start Bootstrap!
+    section_id: download
+    title: Yes, it's free!
     actions:
       - title: Download Now!
         url: https://startbootstrap.com/themes/creative/

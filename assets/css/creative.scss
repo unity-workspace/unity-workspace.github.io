@@ -10130,15 +10130,17 @@ header.masthead h1 {
   background: rgba(19, 47, 76, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
+  padding: 4px;
 }
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category {
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-title, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-title, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-title, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-title, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-title {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.85rem;
   font-weight: 600;
-  text-transform: uppercase;
+  color: #99CCF3;
 }
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name {
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-description, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-description, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-description, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-description, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-description {
   font-size: 1.2rem;
+  font-size: 0.85rem;
+  color: #CDD2D7;
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
