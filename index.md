@@ -67,7 +67,7 @@ sections:
     title: Yes, it's free!
     actions:
       - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
+        url: https://github.com/unity-workspace/unity-workspace.github.io/releases/download/v1.0.0/UnityWorkspace-1.0.0.Setup.zip
         class: btn-light
 
   - type: contact.html
